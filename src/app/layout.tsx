@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({
   weight: ['500', '700'],
   subsets: ['latin'],
+  variable: '--font-inter',
 })
 
 export const metadata = {

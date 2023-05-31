@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        body: 'var(--font-inter)',
+      },
       colors: {
         'blue-dark': '#1E6F9F',
         blue: '#4EA8DE',
@@ -23,11 +26,6 @@ module.exports = {
         'gray-100': '#F2F2F2',
 
         danger: '#E25858',
-      },
-      spacing: {
-        12: '12px',
-        14: '14px',
-        16: '16px',
       },
     },
   },
