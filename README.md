@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+h1 align="center">
+  <img alt="Todo" title="ToDo" src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs-v2/4a5f8d1f0f23271b588a504322e1292ab303fdc3/desafios/01-todo-list/src/assets/logo.svg" width="180px" />
+</h1>
 
-## Getting Started
+<p align="center">
+  <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/tavareshenrique/ignite-reactjs-v2?color=4ea8de">
+  <img alt="Made by Henrique Tavares" src="https://img.shields.io/badge/made%20by-Henrique Tavares-%20?color=4ea8de">
+  <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/tavareshenrique/ignite-reactjs-v2?color=5e60ce">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tavareshenrique/ignite-reactjs-v2?color=5e60ce">
+  <img alt="GitHub license" src="https://img.shields.io/github/license/tavareshenrique/ignite-reactjs-v2?color=5e60ce">
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="#information_source-como-executar">ℹ️ Como Executar?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">🚀 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-autores">💻 Autores</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">📝 Licença</a>
+</p>
+
+<p align="center">
+  O <b>ToDo</b> é o desafio do primeiro módulo do curso  <b>Ignite ReactJS v2 da Rocketseat</b>. Para acessar o código do curso do <b>Ignite ReactJS v.2</b>, <a href="https://github.com/leuzindev/todolist-challenge">clique aqui</a> .
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs-challenge-01-todo-list/main/src/assets/previews/preview.png" width="700"/>
+</p>
+
+---
+
+> 🧪 Essa aplicação não possuirá **Testes Unitários**, **Integração** e **E2E** por não ser o foco do estudo, mas está pronta para ser executada. 🧪
+
+# :information_source: Como Executar?
+
+> **1.0.** Clone o Repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/leuzindev/todolist-challenge
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> **1.1.** Instale as dependências:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+> **1.2.** Inicie o Serviço:
 
-## Learn More
+```bash
+yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+> ➡️ Acesse [http://localhost:3000](http://localhost:3000) para acessar a aplicação web.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# :rocket: Tecnologias
 
-## Deploy on Vercel
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/)
+- [Phosphor Icons](https://phosphoricons.com/)
+- [UUID](https://github.com/uuidjs/uuid)
+- [Vite](https://vitejs.dev/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# :memo: Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo de [licença](./LICENSE) para mais detalhes.
