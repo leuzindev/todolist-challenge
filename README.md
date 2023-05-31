@@ -1,10 +1,10 @@
-h1 align="center">
+<h1 align="center">
   <img alt="Todo" title="ToDo" src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs-v2/4a5f8d1f0f23271b588a504322e1292ab303fdc3/desafios/01-todo-list/src/assets/logo.svg" width="180px" />
 </h1>
 
 <p align="center">
   <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/tavareshenrique/ignite-reactjs-v2?color=4ea8de">
-  <img alt="Made by Henrique Tavares" src="https://img.shields.io/badge/made%20by-Henrique Tavares-%20?color=4ea8de">
+  <img alt="Made by leuzin dev" src="https://img.shields.io/badge/made%20by-Henrique Tavares-%20?color=4ea8de">
   <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/tavareshenrique/ignite-reactjs-v2?color=5e60ce">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/tavareshenrique/ignite-reactjs-v2?color=5e60ce">
   <img alt="GitHub license" src="https://img.shields.io/github/license/tavareshenrique/ignite-reactjs-v2?color=5e60ce">
@@ -56,9 +56,9 @@ yarn dev
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://pt-br.reactjs.org/)
-- [Phosphor Icons](https://phosphoricons.com/)
+- [Tailwind](https://tailwindcss.com/)
 - [UUID](https://github.com/uuidjs/uuid)
-- [Vite](https://vitejs.dev/)
+- [Next](https://nextjs.org/docs)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 
