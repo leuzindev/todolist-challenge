@@ -1,6 +1,7 @@
 import { ReactNode } from 'react'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { ProvidersWrapper } from '@/components/ProvidersWrapper'
 
 const inter = Inter({
   weight: ['500', '700'],
@@ -16,7 +17,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ProvidersWrapper>{children}</ProvidersWrapper>
+      </body>
     </html>
   )
 }
