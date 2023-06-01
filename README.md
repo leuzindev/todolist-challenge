@@ -47,12 +47,15 @@ yarn dev
 # :rocket: Tecnologias
 
 - [TypeScript](https://www.typescriptlang.org/)
+- [Redux](https://redux.js.org/)
 - [React](https://pt-br.reactjs.org/)
+- [Next](https://nextjs.org/docs)
 - [Tailwind](https://tailwindcss.com/)
 - [UUID](https://github.com/uuidjs/uuid)
-- [Next](https://nextjs.org/docs)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Zod](https://zod.dev/)
 
 
 # :memo: Licença
