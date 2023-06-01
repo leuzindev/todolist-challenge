@@ -13,11 +13,18 @@ const taskSlice = createSlice({
       state.todos.push(action.payload)
     },
     removeTodo: (state: TaskState, action: PayloadAction<Todo>) => {
-      const id = action.payload.id
-      console.log(id)
+      const id = action.payload
+      const index = state.todos.findIndex((todo: any) => todo.id === id)
+      if (index !== -1) {
+        state.todos.splice(index, 1)
+      }
+    },
+    completeTask: (state: TaskState, action: PayloadAction<Todo>) => {
+      const id = action.payload
+      const index = state.todos.findIndex((todo: any) => todo.id === id)
     },
   },
 })
 
-export const { addTodo, removeTodo } = taskSlice.actions
+export const { addTodo, removeTodo, completeTask } = taskSlice.actions
 export default taskSlice.reducer

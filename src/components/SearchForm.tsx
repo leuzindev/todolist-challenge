@@ -34,6 +34,7 @@ export default function SearchForm() {
       addTodo({
         id: uuidv4(),
         description: data.description,
+        isCompleted: false,
       }),
     )
   }
