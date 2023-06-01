@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { ProvidersWrapper } from '@/components/ProvidersWrapper'
+import { ProvidersWrapper } from '@/modules/ProvidersWrapper'
 
 const inter = Inter({
   weight: ['500', '700'],

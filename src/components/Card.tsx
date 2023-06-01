@@ -10,7 +10,7 @@ import { useDispatch } from 'react-redux'
 import { completeTask, removeTodo } from '@/features/tasksSlice'
 
 interface CardProps {
-  id?: string
+  id: string
   description?: string
 }
 
@@ -22,14 +22,14 @@ export function Card({ id, description }: CardProps) {
     dispatch(removeTodo(id))
   }
   function handleCompleteTodo() {
-    completeTask(id)
+    dispatch(completeTask(id))
     setTaskCompleted(taskCompleted !== true)
   }
 
   return (
     <div className="flex min-h-[72px] items-center justify-center rounded-lg bg-gray-500">
       <div className="flex h-20 w-[5%] items-center justify-end">
-        <span onClick={handleCompleteTodo}>
+        <span onClick={handleCompleteTodo} className="rounded-lg">
           <Checkbox />
         </span>
       </div>

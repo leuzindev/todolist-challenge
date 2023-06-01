@@ -22,6 +22,9 @@ const taskSlice = createSlice({
     completeTask: (state: TaskState, action: PayloadAction<Todo>) => {
       const id = action.payload
       const index = state.todos.findIndex((todo: any) => todo.id === id)
+      if (index !== -1) {
+        state.todos[index].isCompleted = !state.todos[index].isCompleted
+      }
     },
   },
 })
