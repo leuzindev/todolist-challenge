@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className=" min-h-screen w-screen bg-gray-600">
       <Header />
-      <div className="m-auto w-1/2">
+      <div className="m-auto w-1/2 lg:w-11/12">
         <SearchForm />
         <TaskFeed />
       </div>
